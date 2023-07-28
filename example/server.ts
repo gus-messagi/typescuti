@@ -1,9 +1,10 @@
 import express from 'express'
-import * as container from '../lib'
+import * as container from 'typescuti'
 import { UserController } from './user.controller'
 
 const app = express()
 
+// resolve classes
 const userController = container.resolve<UserController>(UserController)
 
 app.get('/user', (_, res) => {

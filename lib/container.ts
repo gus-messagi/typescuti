@@ -1,4 +1,4 @@
-import type constructor from './types/constructor'
+import { type constructor } from './types'
 
 const instances: Record<string, unknown> = {}
 
