@@ -1,18 +1,25 @@
 {
   "name": "typescuti",
   "author": "Gustavo Messagi",
-  "version": "1.0.0",
-  "main": "lib/index.js",
+  "version": "1.0.1",
+  "main": "lib/index.ts",
   "types": "lib/types/constructor.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc --project tsconfig.json"
   },
+  "keywords": [
+    "ioc",
+    "di",
+    "dependency injection",
+    "dependency inversion",
+    "dependency injection container",
+    "inversion of control container"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/gus-messagi/typescuti"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.4.3",
@@ -30,6 +37,9 @@
     "node": ">=14.17.0"
   },
   "files": [
-    "lib/**/*"
-  ]
+    "dist"
+  ],
+  "dependencies": {
+    "typescuti": "^1.0.0"
+  }
 }
