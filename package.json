@@ -1,9 +1,9 @@
 {
   "name": "typescuti",
   "author": "Gustavo Messagi",
-  "version": "1.0.1",
-  "main": "lib/index.ts",
-  "types": "lib/types/constructor.d.ts",
+  "version": "1.0.2",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc --project tsconfig.json"
@@ -37,9 +37,6 @@
     "node": ">=14.17.0"
   },
   "files": [
-    "dist"
-  ],
-  "dependencies": {
-    "typescuti": "^1.0.0"
-  }
+    "dist/**"
+  ]
 }

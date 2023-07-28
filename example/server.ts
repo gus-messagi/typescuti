@@ -1,5 +1,5 @@
 import express from 'express'
-import * as container from 'typescuti'
+import * as container from 'typescuti/dist'
 import { UserController } from './user.controller'
 
 const app = express()

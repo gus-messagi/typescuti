@@ -2005,6 +2005,13 @@ typescuti@^1.0.0:
   resolved "https://registry.yarnpkg.com/typescuti/-/typescuti-1.0.0.tgz#3a10577f9a0d146da5c0ec460c8d81eca18e7ba5"
   integrity sha512-jl7eutX4/DkaGFwceIGDf3vEqlOJyNcB/khKTCg4Lwe2h9hxjEAOBvTnKPW42jK6XnhM0PVNTHLBA9q2X7sx3g==
 
+typescuti@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/typescuti/-/typescuti-1.0.1.tgz#139005d3d2d52313a6d8f0d7db37319d475a09f4"
+  integrity sha512-cwfL+DQYptWcDDrCoHd0cdvwKMMwv3MegSZ8C8BkhNfrIOZgGQjNU8JxomKJd38pbXQYXBvvBkwtlxul8KDA1Q==
+  dependencies:
+    typescuti "^1.0.0"
+
 unbox-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/unbox-primitive/-/unbox-primitive-1.0.2.tgz"
